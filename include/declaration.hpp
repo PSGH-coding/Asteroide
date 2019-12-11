@@ -1,0 +1,30 @@
+#ifndef DECLARATION_HPP
+#define DECLARATION_HPP
+
+#define SPEED_SPACE_SHIP 0.1
+#define SPEED_ROTATION 0.12
+#define SPEED_BULLETS 15
+#define SPEED_ASTEROID 0.5
+#define SPEED_D_ACCEL_X_Y_SPACE_SHIP 0.95
+#define SPEED_D_ACCEL_R_SPACE_SHIP 0.95
+#define SPEED_R_ASTEROIDS 1
+#define ASTEROID_LIFE 1
+#define LIFE_SPACE_SHIP 100
+#define SIZE_SPACE_SHIP 0.2
+#define SIZE_BULLET 0.05
+#define SIZE_ASTEROID 0.2
+#define SIZE_EXPLOSION 0.7
+#define SIZE_OF_WINDOW_X 1200
+#define SIZE_OF_WINDOW_Y 900
+#define CD_TIR 20
+#define NB_ASTEROIDS 20
+#define PI  3.14159265358979323846
+#define FRAMERATE_LIMIT 120
+#define DAMAGE_ASTEROID 10
+#define SCORE_BOARD_SIZE 20
+#define LIFE_BOARD_SIZE 20
+#define MIN(a,b) ((a) < (b) ? (a) : (b))
+
+int rand_a_b(int a, int b);
+
+#endif
